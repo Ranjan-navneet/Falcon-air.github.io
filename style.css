@@ -1,0 +1,126 @@
+#navbar {
+    width: 100%;
+    height: 200px;
+    border: 0 px solid black;
+    padding: 0;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+    font-size: large;
+    font-family: montserrat;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: radial-gradient( circle 325px at 19.2% 64.8%, rgba(254, 62, 101, 1) 9.7%, rgba(166, 24, 146, 1) 91.3%);
+    height: 60px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+    height: 60px;
+}
+
+.outline {
+    border: 0px solid red;
+    height: 40px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    position: relative;
+    left: 0px;
+    animation-name: me;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    font-family: montserrat;
+    text-align: center;
+    padding-top: 8px;
+    font-size: large;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    flex-wrap: wrap;
+}
+
+::selection {
+    background-color: yellow;
+    color: black;
+}
+
+@keyframes me {
+    from {
+        top: 0;
+        left: 0;
+        color: red;
+        background-color: lightgoldenrodyellow;
+    }
+    to {
+        top: 0;
+        left: 100%;
+        color: red;
+        background-color: lightgoldenrodyellow;
+    }
+}
+
+.flex-container {
+    display: fixed;
+    position: relative;
+    margin-top: 150px;
+    left: 30px;
+    height: 270px;
+    width: 1440px;
+    align-items: center;
+    background-color: #fbf2f4;
+    box-shadow: 15px 0px inset #f4a8b5;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 5%;
+    font-size: large;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    background-image: radial-gradient( circle 325px at 19.2% 64.8%, rgba(254, 62, 101, 1) 9.7%, rgba(166, 24, 146, 1) 91.3%);
+    text-align: center;
+}
+
+.body {
+    background-image: url('airline.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
